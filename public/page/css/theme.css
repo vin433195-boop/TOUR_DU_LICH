@@ -1,0 +1,201 @@
+/* ============================================================
+   VHD Travel - Global Theme Override: Pink + Blue
+   ============================================================ */
+
+:root {
+  --theme-pink:      #e91e8c;
+  --theme-pink-dark: #c2185b;
+  --theme-blue:      #2563eb;
+  --theme-blue-dark: #1e3a8a;
+  --theme-dark:      #0f172a;
+  /* Alias cho home-custom.css dùng */
+  --primary:    #e91e8c;
+  --primary-dark: #c2185b;
+  --secondary:  #2563eb;
+  --dark-bg:    #0f172a;
+  /* Font */
+  --font-vn: 'Be Vietnam Pro', 'Poppins', -apple-system, sans-serif;
+}
+
+/* ============================================================
+   GLOBAL FONT — Be Vietnam Pro (hỗ trợ đầy đủ tiếng Việt)
+   ============================================================ */
+body,
+h1, h2, h3, h4, h5, h6,
+p, span, a, li, td, th,
+input, textarea, select, button,
+.form-control, .btn,
+.hotel-card, .tour-card, .article-card {
+  font-family: var(--font-vn) !important;
+}
+
+/* Phần nội dung HTML từ DB (h_content, t_content) */
+.ftco-section p,
+.ftco-section h2,
+.ftco-section table,
+.ftco-section td,
+.content p,
+.content h2,
+.description p,
+.description h2,
+.hotel-card__title,
+.hotel-card__desc,
+.hotel-card__location,
+.hotel-card__price,
+.tour-card__title,
+.tour-card__meta,
+.sec-head h2,
+.sec-head p {
+  font-family: var(--font-vn) !important;
+  line-height: 1.75;
+}
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+#ftco-navbar.scrolled {
+  background: linear-gradient(135deg, var(--theme-dark) 0%, var(--theme-blue-dark) 100%) !important;
+}
+
+/* ============================================================
+   BUTTONS (btn-primary override)
+   ============================================================ */
+.btn.btn-primary {
+  background-color: var(--theme-pink) !important;
+  border-color: var(--theme-pink) !important;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  background-color: var(--theme-pink-dark) !important;
+  border-color: var(--theme-pink-dark) !important;
+}
+
+/* ============================================================
+   HERO (các trang con có hero banner)
+   ============================================================ */
+.hero-wrap .overlay {
+  background: linear-gradient(135deg, rgba(15,23,42,0.88) 0%, rgba(37,99,235,0.55) 50%, rgba(0,0,0,0.55) 100%) !important;
+}
+
+/* ============================================================
+   SEARCH TABS
+   ============================================================ */
+.ftco-search .nav-pills .nav-link.active,
+.ftco-search .nav-pills .nav-link:hover {
+  background: var(--theme-pink) !important;
+  color: #fff !important;
+}
+
+/* ============================================================
+   TOUR / HOTEL CARD BUTTONS
+   ============================================================ */
+.ftco-animate .btn,
+a.btn-primary,
+.properties .btn-custom,
+.listing-card .btn,
+.hotel-card .btn {
+  background: var(--theme-pink) !important;
+  border-color: var(--theme-pink) !important;
+}
+
+/* ============================================================
+   PAGINATION
+   ============================================================ */
+.pagination .page-item.active .page-link {
+  background-color: var(--theme-pink) !important;
+  border-color: var(--theme-pink) !important;
+}
+.pagination .page-link:hover {
+  color: var(--theme-pink) !important;
+}
+
+/* ============================================================
+   RATING STARS / ICONS
+   ============================================================ */
+.rate span {
+  color: var(--theme-pink) !important;
+}
+
+/* ============================================================
+   SIDEBAR / FILTER
+   ============================================================ */
+.sidebar .heading {
+  color: var(--theme-pink) !important;
+}
+
+/* ============================================================
+   BREADCRUMB
+   ============================================================ */
+.bread-block .bread {
+  background: linear-gradient(135deg, rgba(15,23,42,0.92) 0%, rgba(37,99,235,0.7) 100%) !important;
+}
+
+/* ============================================================
+   FTCO SECTION HEADINGS (all pages)
+   ============================================================ */
+.ftco-section .heading-section .subheading {
+  color: var(--theme-pink) !important;
+}
+.ftco-section .heading-section::after,
+.ftco-section .heading-section::before {
+  background: var(--theme-pink) !important;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.ftco-footer {
+  background: var(--theme-dark) !important;
+}
+.ftco-footer-social li a:hover {
+  background: var(--theme-pink) !important;
+  border-color: var(--theme-pink) !important;
+}
+
+/* ============================================================
+   MISC ICONS & ACCENTS
+   ============================================================ */
+.icon-map:before,
+.fa-map-marker,
+.price span,
+span.price {
+  color: var(--theme-pink) !important;
+}
+
+/* ============================================================
+   STATS BAND (all pages)
+   ============================================================ */
+.stats-band {
+  background: linear-gradient(135deg, var(--theme-dark) 0%, var(--theme-blue-dark) 100%) !important;
+}
+
+/* ============================================================
+   CTA BAND (all pages)
+   ============================================================ */
+.cta-band {
+  background: linear-gradient(135deg, var(--theme-pink) 0%, var(--theme-pink-dark) 100%) !important;
+}
+
+/* ============================================================
+   TOUR DETAIL / HOTEL DETAIL
+   ============================================================ */
+.ftco-appointment-form .form-group .form-control:focus {
+  border-color: var(--theme-pink) !important;
+  box-shadow: 0 0 0 0.2rem rgba(233,30,140,0.25) !important;
+}
+
+.bg-primary {
+  background-color: var(--theme-pink) !important;
+}
+a.bg-primary:hover {
+  background-color: var(--theme-pink-dark) !important;
+}
+.text-primary {
+  color: var(--theme-pink) !important;
+}
+a.text-primary:hover {
+  color: var(--theme-pink-dark) !important;
+}
+.border-primary {
+  border-color: var(--theme-pink) !important;
+}
