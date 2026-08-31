@@ -3,21 +3,10 @@
 Website đặt tour du lịch và khách sạn được xây dựng bằng Laravel, hỗ trợ người dùng tìm kiếm, đặt tour/phòng và quản lý thông tin cá nhân. Hệ thống có trang quản trị dành cho Admin để quản lý tour, khách sạn, người dùng, đơn đặt hàng và phân quyền.
 
 ## 📸 Demo
-
-> Project chạy local. Một số screenshot giao diện sẽ được bổ sung tại thư mục `screenshots/`.
-
-<!--
-![Trang chủ](screenshots/home.png)
-
-![Danh sách tour](screenshots/tours.png)
-
-![Chi tiết tour](screenshots/tour-detail.png)
-
-![Admin panel](screenshots/admin.png)
--->
-
----
-
+[Xem video demo dự án]
+https://drive.google.com/file/d/13_TsCFqBGB04UQQniWm6k2jKTDyEj-EQ/view?usp=sharing
+https://drive.google.com/file/d/1-dkYeMyJNG-qOik5ry5To8PdOFhwz3X9/view?usp=sharing
+https://drive.google.com/file/d/18Hr9-VKFni_FiypshkV2Wqs3TqfJ3B-3/view?usp=sharing
 ## ✨ Tính năng
 
 ### 👤 Phía khách hàng
